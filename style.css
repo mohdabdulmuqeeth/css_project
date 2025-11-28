@@ -1,0 +1,155 @@
+h1{
+    background: linear-gradient(to right,orange,white,green );
+    width: 20%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+body {
+    background: linear-gradient(orange,white,green);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+
+.navbar {
+    text-decoration: none;
+    word-spacing: 50px;
+    background: linear-gradient(darkblue,darkred);
+    height: 30px;
+    text-align: center;
+    font-size: 20px;
+    
+}
+
+a{
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 2px;
+    font-size: 25px;
+    color: bisque;
+
+}
+a:hover{
+    font-size:large;
+    font-family: cursive;
+}
+
+.card {
+    height: 320px;
+    width: 300px;
+    border: 5px solid red;
+    padding: 5px;
+    margin: 30px;
+    background: linear-gradient(yellow,lightpink,lightblue);
+    text-align: center;
+    border-radius: 30px;
+    font-size: 15px;
+
+}
+
+
+.image-box {
+    width: 150px;
+    height: 150px;
+    border: 2px solid #333;
+    margin: 5px auto;
+    border-radius: 20px;
+}
+
+
+.image-box img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+#css1:hover{
+    height: 300px;
+    width: 300px;
+}
+.button1{
+    background: linear-gradient(pink,yellow,green);
+    margin: 5px auto;
+    border-radius: 30px;
+    text-align: center;
+
+}
+.button1 a{
+    color: black;
+    font-size: 10px;
+}
+
+.button1:hover{
+    height: 30px;
+    width: 100px;
+    
+}
+.firstrow{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 180px;
+
+}
+
+.footer{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+h2:hover{
+    color: yellow;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: underline;
+}
+
+.card:hover{
+    height: 450px;
+    width: 350px;
+    background: linear-gradient(pink,lightyellow,lightgreen);
+}
+body::selection{
+    background-color: red;
+    color: white;
+}
+h2{
+    color: crimson;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: underline;
+}
+
+pre{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.typo{
+    background: linear-gradient(to right,lightgreen,lightyellow);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+
+.intro{
+    background: linear-gradient(to left, lightpink,lightblue);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+
+.selectors{
+    background: linear-gradient(to right,lightyellow,lightgreen);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+
+.box{
+    background: linear-gradient(to right,lightyellow,lightblue);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+
+.color{
+    background: linear-gradient(to right,lightyellow,lightpink,yellow,lightgreen,lightblue);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}

@@ -1,0 +1,82 @@
+#color{
+    color: blue;
+}
+#text-align-center{
+    text-align: center;
+    color: brown;
+}
+#text-align-right{
+    text-align: right;
+    color: blueviolet;
+}
+#text-align-left{
+    text-align: left;
+    color: darkgreen;
+}
+#text-decoration-underline{
+    text-decoration: underline;
+    color: blue;
+}
+#text-decoration-overline{
+    text-decoration: overline;
+    color: blue;
+}
+#text-decoration-line-through{
+    text-decoration: line-through;
+    color: blue;
+}
+#text-decoration-none{
+    text-decoration: none;
+    color: blue;
+}
+#text-transform-lower{
+    text-transform: lowercase;
+    color: green;
+}
+#text-transform-upper{
+    text-transform: uppercase;
+    color: violet;
+}
+#text-transform-capitalize{
+    text-transform: capitalize;
+    color: chocolate;
+}
+#text-indent{
+    text-indent: 40px;
+    color: blue;
+}
+#text-shadow{
+    text-shadow: 2px 2px 5px red;
+    color: blue;
+    font-size: 30px;
+}
+#letter-spacing{
+    letter-spacing: 20px;
+}
+#word-spacing{
+    word-spacing: 50px;
+}
+#line-height{
+    line-height: 50px;
+}
+#font-size{
+    font-size: 50px;
+    color: palevioletred;
+}
+#font-style-normal{
+    font-style: normal;
+}
+#font-style-italic{
+    font-style: italic;
+    color: blue;
+}
+#font-style-oblique{
+    font-style: oblique;
+    color: darkred;
+}
+#font-weight{
+    font-weight: 800;
+}
+#font-family{
+    font-family: cursive;
+}

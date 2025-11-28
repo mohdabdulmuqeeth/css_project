@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body class="selectors">
+
+    <center>
+        <h1>CSS3 <i class="fa-brands fa-css3"></i></h1>
+    </center>
+    <div class="navbar">
+        <a href="./index.html"><i class="fa-solid fa-house"></i></a>
+        <a href="./intro.html">Intro</a>
+        <a href="./selectors.html">Selectors</a>
+        <a href="./box.html">Box-Model</a>
+        <a href="./color.html">Color-Theory</a>
+        <a href="./typo.html">Typography</a>
+        
+    </div>
+
+    <center>
+    <marquee behavior="alternate" direction=""><h2>Selectors😍</h2></marquee>
+    </center>
+
+        <h3>CSS Selectors: </h3>
+        <p>
+Selector is nothing but select the element which you wanted to 
+style. It tells the browser Which element should this style 
+apply to? </p>
+ 
+<strong>CSS Syntax: </strong>
+<pre>
+selector { 
+    property: value; 
+} 
+<br>
+selector → identifies the HTML element(s). 
+property → the style property (like color, font-size, etc.). 
+value → the value you assign to that property. </pre>
+ 
+<h3>Types of selectors: </h3>
+<ol>
+<li>Basic/Simple selectors </li>
+<li>Combination selectors </li>
+<li>Pseudo class selectors </li>
+<li>Pseudo element selectors </li>
+</ol>
+
+<h4>Types of Basic/Simple Selectors: </h4>
+<strong>1.Element / Tag Selector :</strong>
+<p>
+• Selects all elements of a specific type (tag name) 
+<pre><b>Syntax: </b>
+tagname { 
+    property: value; 
+} 
+</pre>
+
+<h4>2. Class Selector : </h4>
+<pre>
+• Selects elements with a specific class attribute. 
+<b>Symbol :</b> .(dot) 
+<b>Syntax: </b>
+.classname { 
+    property: value; 
+}
+</pre>
+
+<h4>3.ID Selector : </h4>
+<pre>
+• Selects an element with a unique id attribute. 
+<b>Symbol:</b> #(hashtag) 
+<b>Syntax:</b> 
+#idname { 
+    property: value; 
+}
+</pre>
+
+<h4>4.Group Selector : </h4>
+<pre>
+• Allows styling multiple selectors at once by separating them with commas. 
+<b>Symbol:</b> ,(comma) 
+<b>Syntax: </b>
+selector1, selector2, selector3 { 
+    property: value; 
+}
+</pre>
+<h4>5.Universal / Global Selector : </h4>
+<pre>
+• Selects all elements on the page. 
+<b>Symbol:</b> * (astrick)
+<b>Syntax: </b>
+* { 
+    property: value; 
+}
+</pre>
+
+<h3>Combination Selectors:(Combinators) : </h3>
+<p>
+In Css, between two simple selectors we can place a combinator this is called combination selectors </p>
+ 
+<h3>Types of Combinators: </h3>
+<ul>
+<li>Descendant selector </li>
+<li>Child selector </li>
+<li>Adjacent sibling selector </li>
+<li>General sibling selector </li>
+</ul>
+
+<h4>Descendant Selector (space): </h4>
+<pre>
+Select all direct and indirect children for styling 
+<b>Syntax: </b>
+parent descendant { 
+   property: value; 
+}
+</pre>
+<h4>Child Selector (>) :</h4>
+<pre>
+Selects only the direct children of a parent, not deeper levels. 
+<b>Syntax: </b>
+parent > child { 
+   property: value; 
+}
+</pre>
+
+<h4>Adjacent Sibling Selector (+) :</h4>
+<pre>
+Selects the immediately next element after a given element 
+<b>Syntax: </b>
+element1 + element2 { 
+   property: value; 
+}
+</pre>
+
+<h4>General Sibling Selector (~) : </h4>
+<pre>
+Selects all siblings (on the same parent level) that come after a 
+given element. 
+<b>Syntax: </b>
+element1 ~ element2 { 
+   property: value; 
+}
+</pre>
+
+<strong>Priorities :</strong>
+<pre>
+Style v/s id v/s class v/s tag: 
+style-tag => style 
+style-id => style 
+style-class => style 
+ 
+id-class => id 
+id-tag => id 
+class-tag => class 
+So finally the order of priority becomes 
+Style – id – class - tag
+</pre>
+
+<h3>Pseudo selectors: </h3>
+<p>
+Pseudo-selectors in CSS are special keywords added to 
+selectors that let you style elements based on their state, 
+position, or part without needing extra classes or IDs. 
+They start with a colon : (or) double colon :: for pseudo
+elements. </p>
+ 
+<h4>Types of Pseudo selectors: </h4>
+<pre>
+Mainly there are two types of pseudo selectors there 
+<strong>1.Pseudo-Classes (:) </strong>
+Describe a special state of an element. 
+<strong>2.Pseudo-Elements (::) </strong>
+Allow you to style specific parts of an element. 
+
+<b>Syntax:</b> 
+
+selector:pseudo-class { 
+   property: value; 
+} 
+
+selector::pseudo-element { 
+   property: value; 
+} 
+</pre>
+ <pre>
+<h4>Pseudo class selectors: </h4>
+<strong>:hover </strong>
+Styles element when mouse hovers over it. 
+<strong>:active </strong>
+Styles element when it is being clicked. 
+<strong>:visited </strong>
+Styles links after they are visited. 
+<strong>:focus </strong>
+ Styles input when focused (clicked/tabbed). 
+<strong>:checked </strong>
+Selects checked inputs. 
+<strong>:first-child </strong>
+Selects the first child element inside a parent. 
+<strong>:last-child </strong>
+Selects the last child element inside a parent. 
+<strong>:nth-child(n) </strong>
+Selects nth child. 
+<strong>:link  </strong>
+ A pseudo-class that selects all unvisited links 
+<strong>:nth-of-type(n)  </strong>
+A pseudo-class that selects the nth element of its type (like the 2nd <p>, 3rd <li>, etc.) inside its parent. 
+</li>
+</pre>
+ <pre>
+<h3>Pseudo element selectors:</h3> 
+<strong>::first-letter </strong>
+Styles the first letter of a block element. 
+<strong>::first-line:</strong> 
+Styles the first line of a block element. 
+<strong>::before </strong>
+Inserts generated content before an element. 
+<strong>::after </strong> 
+Inserts generated content after an element. 
+<strong>::selection </strong>
+Styles text when it is highlighted (selected).
+ </p>
+    </pre>
+</body>
+
+</html>

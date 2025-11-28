@@ -1,0 +1,60 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card1{
+    height: 300px;
+    width: 300px;
+    border: 5px solid black;
+    text-align: center;
+    border-radius: 30px;
+    margin: 10px auto;
+    background: linear-gradient(lightyellow,lightpink);
+}
+.inner{
+    height: 100px;
+    width: 100px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+    margin: auto;
+    padding: 30px;
+    border-radius: 50%;
+}
+#colorname{
+    background-color: blue;
+}
+#hexa{
+    background-color: #aaf23f;
+}
+#rgb{
+    background-color: rgb(190, 110, 100);
+}
+#rgba{
+    background-color: rgba(120,90,240, 0.5);
+}
+#hsl{
+    background-color: hsl(2563, 40%, 20%);
+}
+#hsla{
+    background-color: hsla(140, 90%, 50%, 0.2);
+}
+#linear{
+    background: linear-gradient(blue,yellow,red);
+}
+#repeatlinear{
+    background: repeating-linear-gradient(yellow,blue,red 40px);
+}
+#radial{
+    background: radial-gradient(yellow,red,blue 80px);
+}
+#repeatradialf{
+    background: repeating-radial-gradient(farthest-side,  yellow,red,blue 60px);
+}
+#repeatradialc{
+    background: repeating-radial-gradient(closest-side,  yellow,red,blue 20px);
+}
+#rainbow{
+    background: linear-gradient(red,orange,yellow,green,blue,indigo,violet);
+}

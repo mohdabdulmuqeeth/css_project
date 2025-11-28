@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./typo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body class="typo">
+    
+    <center>
+        <h1>CSS3 <i class="fa-brands fa-css3"></i></h1>
+    </center>
+    <div class="navbar">
+        
+        <a href="./index.html"><i class="fa-solid fa-house"></i></a>
+        <a href="./intro.html">Intro</a>
+        <a href="./selectors.html">Selectors</a>
+        <a href="./box.html">Box-Model</a>
+        <a href="./color.html">Color-Theory</a>
+        <a href="./typo.html">Typography</a>
+    
+    </div>
+    <center>
+    <marquee behavior="alternate" direction=""><h2>Typography😊</h2></marquee>
+    </center>
+
+    <h3>Typography:</h3>
+    <p>Typography is the art and technique of styling text to make it readable, attractive, and effective—using font, size, spacing, and layout choices
+</p>
+<h4>Text Properties in CSS:</h4> 
+<p>
+Text properties are CSS styles used to control the appearance, 
+alignment, spacing, and decoration of text on a webpage. 
+ 
+<h4>Text Color </h4>
+Defines the color of the text.
+
+<h4>Text Alignment</h4>
+<pre>• Controls how text is aligned inside its container. 
+<b>• Values: </b>
+    - left → default 
+    - right → aligned to right 
+    - centre → centered text</pre>
+
+<h4>Text Decoration </h4>
+<pre>
+• Adds or removes decorations from text. 
+<b>• Values: </b>
+    - none → removes underline 
+    - underline → adds underline 
+    - overline → adds line above text 
+    - line-through → adds strike-through 
+    - underline dotted → custom style</pre>
+
+<h4>Text Transform </h4>
+<pre>
+• Changes the capitalization of text. 
+• Values: 
+    - uppercase → ALL CAPS 
+    - lowercase → all small letters 
+    - capitalize → First letter of each word capitalized</pre>
+
+<h4>Text Indent </h4>
+• Adds space at the beginning of the first line of text.
+
+<h4>Text Shadow </h4>
+<p>• Adds shadow to text. </p>
+<b>• Syntax: </b>
+text-shadow: h-offset v-offset blur-radius color;
+
+<h4>Line Height </h4>
+<pre>
+    - Controls vertical spacing between lines of text.</pre>
+<h4>Letter Spacing </h4>
+<p>• Adjusts space between characters.</p>
+
+<h4>Word Spacing </h4>
+• Adjusts space between words.
+
+<h3>Font properties: </h3>
+<h4>font-family </h4>
+<p>• Specifies the typeface (font style). </p>
+• Can list multiple fonts (fallbacks). 
+<h4>Categories: </h4>
+<pre>
+    • Serif → Times New Roman, Georgia 
+    • Sans-serif → Arial, Verdana, Helvetica 
+    • Monospace → Courier New, Consolas 
+    • Cursive → Brush Script MT 
+    • Fantasy / Decorative → Impact </pre>
+
+<h4>font-size </h4>
+• Defines the size of text.
+<h4>font-style </h4>
+<pre>• Defines the text style. 
+• Values: 
+    - normal (default) 
+    - italic 
+    - oblique (slanted version) </pre>
+
+<h4>font-weight </h4>
+<pre>• Defines thickness (boldness) of text. 
+• Values: 
+- Keywords: normal, bold, lighter, bolder 
+- Numbers: 100 (thin) → 900 (extra bold) </pre>
+
+<h3>Visibility:hidden; VS display:none; </h3>
+<h4>visibility:hidden; </h4>
+it hides the element only but the element space is present 
+<h4>display:none; </h4>
+It hides the both space and element. 
+</p>
+
+<h2>Examples💬</h2>
+
+<h2>Text Properties</h2>
+    <p id="color">(color)Lorem ipsum dolor sit amet.</p>
+
+    <p id="text-align-center">(text-align-center)Lorem ipsum dolor sit amet consectetur.</p>
+    <p id="text-align-right">(text-align-right)Lorem ipsum dolor sit amet consectetur.</p>
+    <p id="text-align-left">(text-align-left)Lorem ipsum dolor sit amet consectetur.</p>
+
+    <p id="text-decoration-underline">underline</p>
+    <p id="text-decoration-overline">overline</p>
+    <p id="text-decoration-line-through">line-through</p>
+    <p id="text-decoration-none">(text-decoration-none)none</p>
+
+    <p id="text-transform-lower">(text-transform-lower)Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+    <p id="text-transform-upper">(text-transform-upper)Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+    <p id="text-transform-capitalize">(text-transform-capitalize)Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+
+    <p id="text-indent">(text-indent)Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+
+    <p id="text-shadow">(text-shadow)Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+
+    <p id="letter-spacing">(letter-spacing)Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+    <p id="word-spacing">(word-spacing)Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+    
+    <p id="line-height">(line-height)Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores molestiae, temporibus quas reprehenderit fuga pariatur numquam mollitia in omnis dicta repellendus! Illo facilis neque veniam porro laudantium exercitationem ut animi! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error, illo!</p>
+    <h2>Font Properties</h2>
+    <p id="font-size">(font-size)Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, saepe!</p>
+
+    <p id="font-style-normal">(font-style-normal)Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet, fugit!</p>
+    <p id="font-style-italic">(font-style-italic)Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet, fugit!</p>
+    <p id="font-style-oblique">(font-style-oblique)Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet, fugit!</p>
+
+    <p id="font-weight">(font-weight)Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit, repellendus?</p>
+
+    <p id="font-family">(Font Family)Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque, nobis!</p>
+
+
+</body>
+</html>
